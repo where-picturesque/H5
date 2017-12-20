@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>轮播</title>
+<style>
+*{margin:0;padding:0;}
+li{list-style:none;}
+.box{width:640px;height:240px;box-shadow:0 0 5px #000;margin:100px auto;overflow:hidden;}
+.box ul{display:flex;animation: lunbo 6s linear infinite;}
+.box ul li{}
+ul li img{width:160px;height:240px;display:block;}
+.box:hover ul{animation-play-state:paused;}
+@keyframes lunbo{
+	0%{margin-left:0px;}
+	100%{margin-left:-960px;}
+
+	}
+
+</style>
+</head>
+
+<body>
+<div class="box">
+<ul>
+	<li><img src="images/black-1.jpg" /></li>
+    <li><img src="images/black-2.jpg" /></li>
+    <li><img src="images/black-3.jpg" /></li>
+    <li><img src="images/black-4.jpg" /></li>
+	<li><img src="images/black-5.jpg" /></li>
+    <li><img src="images/black-6.jpg" /></li>
+    <li><img src="images/black-1.jpg" /></li>
+    <li><img src="images/black-2.jpg" /></li>
+    <li><img src="images/black-3.jpg" /></li>
+    <li><img src="images/black-4.jpg" /></li>
+
+
+</ul>
+
+</div>
+</body>
+</html>

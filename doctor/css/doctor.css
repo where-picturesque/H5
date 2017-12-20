@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{font-size:9.259vw;}
+
+
+
+/*医生在线doctor*/
+
+#doctor-main .surgery{background:#efefef;padding:.12rem .25rem 0 .25rem;}
+#doctor-main .surgery{}
+#doctor-main .surgery h3{font:.38rem/1.02rem "";color:#000;margin-top:.12rem;}
+#doctor-main .surgery ul{}
+#doctor-main .surgery ul li{border:.01rem solid #dddddd;border-radius:.05rem;background:#fff;width:10.28rem;height:2.97rem;margin-bottom:.2rem;}
+#doctor-main .surgery ul li .top{padding:.18rem .34rem .31rem .18rem;}
+#doctor-main .surgery ul li .top a{} 
+#doctor-main .surgery ul li .top a img{float:left;margin:.08rem .44rem 0 0;width:1.56rem;height:1.56rem;}
+#doctor-main .surgery ul li .top a p{}
+#doctor-main .surgery ul li .top a p b{font:.38rem/.72rem "";color:#333333;}
+#doctor-main .surgery ul li .top a p span{font:.3rem/.62rem "";color:#595758;margin-left:.24rem;}
+#doctor-main .surgery ul li .top a h4{font:.3rem/.48rem "";color:#595758;}
+#doctor-main .surgery ul li .bottom{padding:.17rem 0 0 .18rem;border-top:.01rem solid #dddddd;}
+#doctor-main .surgery ul li .bottom span{font:.28rem/.46rem "";color:#fff;background:#6cc7fe;border-radius:.1rem;padding:0 .24rem;}
+
+#doctor-footer{background:#fff;width:100%;height:1.43rem;position:fixed;left:0;bottom:0;border-top:.02rem solid #d2d2d2;}
+#doctor-footer ul{display:flex;justify-content:space-between;}
+#doctor-footer ul li{width:3.36rem;text-align:center;}
+#doctor-footer ul li a{display:block;}
+#doctor-footer ul li a i{display:block;width:.55rem;height:.56rem;background:url(../images/footer-bg.png) no-repeat;background-size:1.1rem 1.68rem;margin:0 auto;margin-top:.24rem;}
+#doctor-footer ul li a h3{font:.3rem/.62rem "";color:#717171;}
+#doctor-footer ul li a i.i2{background-position:0 -.56rem;}
+#doctor-footer ul li a i.i3{background-position:0 -1.12rem;}
+#doctor-footer ul li a.active i.i1{background-position:-.55rem 0;}
+#doctor-footer ul li a.active i.i2{background-position:-.55rem -.56rem;}
+#doctor-footer ul li a.active i.i3{background-position:-.55rem -1.12rem;}
+
